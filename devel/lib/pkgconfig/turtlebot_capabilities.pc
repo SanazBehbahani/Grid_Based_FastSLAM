@@ -1,0 +1,8 @@
+prefix=/home/workspace/FastSLAM/devel
+
+Name: turtlebot_capabilities
+Description: Description of turtlebot_capabilities
+Version: 2.4.2
+Cflags: 
+Libs: -L/home/workspace/FastSLAM/devel/lib 
+Requires: 

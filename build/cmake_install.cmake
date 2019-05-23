@@ -117,6 +117,15 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/workspace/FastSLAM/build/gtest/cmake_install.cmake")
+  include("/home/workspace/FastSLAM/build/turtlebot/turtlebot/cmake_install.cmake")
+  include("/home/workspace/FastSLAM/build/turtlebot/turtlebot_bringup/cmake_install.cmake")
+  include("/home/workspace/FastSLAM/build/turtlebot/turtlebot_capabilities/cmake_install.cmake")
+  include("/home/workspace/FastSLAM/build/turtlebot_simulator/turtlebot_gazebo/cmake_install.cmake")
+  include("/home/workspace/FastSLAM/build/turtlebot_simulator/turtlebot_simulator/cmake_install.cmake")
+  include("/home/workspace/FastSLAM/build/turtlebot_simulator/turtlebot_stage/cmake_install.cmake")
+  include("/home/workspace/FastSLAM/build/turtlebot_simulator/turtlebot_stdr/cmake_install.cmake")
+  include("/home/workspace/FastSLAM/build/turtlebot/turtlebot_teleop/cmake_install.cmake")
+  include("/home/workspace/FastSLAM/build/turtlebot/turtlebot_description/cmake_install.cmake")
 
 endif()
 
