@@ -7,5 +7,4 @@
 # new environment variables
 
 # modified environment variables
-export PKG_CONFIG_PATH="/home/workspace/FastSLAM/devel/lib/pkgconfig:$PKG_CONFIG_PATH"
 export PWD="/home/workspace/FastSLAM/build"
